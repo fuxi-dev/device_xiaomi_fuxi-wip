@@ -12,6 +12,7 @@ $(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureResFuxi \
     FrameworkResOverlayFuxi \
     SystemUIOverlayFuxi \
     SettingsOverlayFuxi
