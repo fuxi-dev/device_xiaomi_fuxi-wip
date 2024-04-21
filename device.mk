@@ -14,6 +14,10 @@ $(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.fuxi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fuxi.rc \
 
+# Euicc
+PRODUCT_PACKAGES += \
+    XiaomiEuicc
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureResFuxi \
