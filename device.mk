@@ -16,6 +16,10 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayFuxi \
     SettingsOverlayFuxi
 
+# Sensors
+PRODUCT_PACKAGES += \
+    nonui-notifier
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
