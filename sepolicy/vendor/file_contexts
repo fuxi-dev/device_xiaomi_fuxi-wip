@@ -1,0 +1,2 @@
+# Sensors
+/(vendor|system/vendor)/bin/sensor-notifier u:object_r:vendor_sensor_notifier_exec:s0

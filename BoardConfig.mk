@@ -28,6 +28,10 @@ TARGET_OTA_ASSERT_DEVICE := fuxi
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Sensors
+TARGET_SENSOR_NOTIFIER_EXT ?= libsensor-notifier-ext
+$(call soong_config_set, xiaomiSm8550SensorVars, extensionLibs, $(TARGET_SENSOR_NOTIFIER_EXT))
+
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 

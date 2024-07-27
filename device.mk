@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    nonui-notifier
+    sensor-notifier
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
