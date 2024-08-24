@@ -21,6 +21,9 @@ PRODUCT_PACKAGES += \
     sensor-notifier \
     sensors.xiaomi.v2
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_ODM)/etc/sensors/hals.conf
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
