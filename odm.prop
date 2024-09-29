@@ -3,5 +3,6 @@ vendor.display.disable_3d_adaptive_tm=0
 persist.sys.miui_resolution=1080x2400
 
 # Fingerprint
-persist.vendor.sys.fp.fod.location.X_Y=596,2758
-persist.vendor.sys.fp.fod.size.width_height=248,248
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=540|2150|105
+persist.vendor.fingerprint.sensor_modules=goodix_fod
