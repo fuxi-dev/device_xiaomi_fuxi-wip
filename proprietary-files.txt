@@ -524,7 +524,7 @@ odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
 vendor/bin/hw/android.hardware.camera.provider@2.7-virtual-camera-service
 vendor/etc/init/android.hardware.camera.provider@2.7-virtual-camera-service.rc
 vendor/lib64/hw/android.hardware.camera.provider@2.7-impl-vcamera.so
-vendor/lib64/camera/libPlatformValidatorShared.so;MODULE_PREFIX=-camera
+vendor/lib64/camera/libPlatformValidatorShared.so;MODULE_SUFFIX=-camera
 vendor/lib64/libPlatformValidatorShared.so
 vendor/lib64/libQnnChrometraceProfilingReader.so
 vendor/lib64/libQnnGpu.so
