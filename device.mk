@@ -10,6 +10,12 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
 
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayFuxi \
+    SystemUIOverlayFuxi \
+    SettingsOverlayFuxi
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
