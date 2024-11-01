@@ -24,4 +24,7 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
 # OTA
 TARGET_OTA_ASSERT_DEVICE := fuxi
 
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+
 include vendor/xiaomi/fuxi/BoardConfigVendor.mk
