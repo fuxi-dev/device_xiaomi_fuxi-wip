@@ -1,2 +1,7 @@
+
+# Display
+/dev/mi_display/disp_feature u:object_r:vendor_displayfeature_device:s0
+
 # Sensors
+/dev/xiaomi-touch                                           u:object_r:touchfeature_device:s0
 /(vendor|system/vendor)/bin/sensor-notifier u:object_r:vendor_sensor_notifier_exec:s0
