@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := fuxi
 PRODUCT_NAME := lineage_fuxi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 2211133G
+PRODUCT_MODEL := 2211133C
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := Xiaomi/fuxi/fuxi:15/AQ3A.240912.001/OS2.0.3.0.VMCCNXM:user/release-keys
