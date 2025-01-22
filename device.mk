@@ -20,6 +20,13 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayFuxi \
     SettingsOverlayFuxi
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.xiaomi.v2
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/hals.conf:$(TARGET_COPY_OUT_ODM)/etc/sensors/hals.conf
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
