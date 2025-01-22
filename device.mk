@@ -18,7 +18,8 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensor-notifier
+    sensor-notifier \
+    sensors.xiaomi.v2
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
